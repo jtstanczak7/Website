@@ -1,0 +1,93 @@
+/* Jonathan Stanczak */
+
+
+/* Style the body */
+body {
+    font-family: Raleway, Arial, sans-serif; /* Use Arial font */
+    background-color: #f2f2f2; /* Light gray background */
+    color: black; /* Black text color */
+}
+
+/* Style the header */
+header {
+    background-image: url('temple.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover; /* Make the background image cover the entire header */
+    padding: 20px; /* Add some padding */
+    width: 100%; /* Make the header extend to the full width */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    font-family: 'Raleway', sans-serif; /* Change the font family */
+}
+
+/* Style the logo */
+.logo {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically center items */
+    color: white; /* White text color */
+}
+
+/* Style the Ace image on the front page */
+.logo img.sirace-img {
+    width: 200px; /* Adjust image width as needed */
+    height: 200px; /* Set height to match width for a perfect circle */
+    margin-right: 10px; /* Add some space between image and text */
+    border-radius: 50%; /* Make the image circular */
+}
+
+.logo img {
+    width: 50px; /* Adjust image width as needed */
+    height: 50px; /* Set height to match width for a perfect circle */
+    margin-right: 10px; /* Add some space between image and text */
+    border-radius: 50%; /* Make the image circular */
+}
+
+.logo h1 {
+    margin: 0; /* Remove default margin for h1 */
+    font-size: 24px; /* Adjust font size as needed */
+}
+
+.logo p {
+    margin: 0; /* Remove default margin for paragraphs */
+    font-size: 50px; /* Adjust font size as needed */
+}
+
+.image-container {
+    float: middle; /* Float the image to the right */
+}
+
+.image-container img {
+    width: 120px; /* Adjust the width of the image */
+    height: auto; /* Let the browser calculate the height automatically to maintain aspect ratio */
+}
+
+/* Style the navigation menu */
+nav {
+    text-align: right; /* Align menu items to the right */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default bullet points */
+}
+
+nav li {
+    display: inline-block; /* Display menu items horizontally */
+    margin-left: 20px; /* Add some space between menu items */
+}
+
+/* Style the main content */
+.main-content {
+    padding: 20px; /* Add some padding */
+}
+
+/* Style the about me and contact me sections */
+.about-me, .contact-me {
+    font-weight: bold; /* Make text bold */
+}
+
+
+/* Style the footer */
+footer {
+    background-color: #808080; /* Blue footer background */
+    color: white; /* White text color */
+    padding: 20px; /* Add some padding */
+    text-align: center; /* Center-align text */
+}
